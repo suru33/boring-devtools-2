@@ -1,10 +1,10 @@
-import { Icon } from "@blueprintjs/core";
+import { Button } from "@mui/material";
 
 const Home = () => {
   return (
     <div>
       Home
-      <Icon icon="globe" size={30} />
+      <Button variant="contained">Hello World</Button>
     </div>
   );
 };
